@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.quiz-app {
+  width: 800px;
+  background-color: #f8f8f8;
+  margin: 20px auto;
+  padding: 20px;
+}
+.quiz-info {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.quiz-info .category {
+  flex: 1;
+}
+.quiz-info .question-number {
+  flex: 1;
+  text-align: right;
+}
+.quiz-info .question-number span {
+  margin-left: 5px;
+}
+.quiz-area {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.quiz-area h2 {
+  margin: 0;
+}
+.answers-area {
+  background-color: #fff;
+  padding: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.answers-area .answer {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.answers-area .answer:not(:last-of-type) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.answers-area .answer input[type="radio"]:checked + label {
+  color: #0075ff;
+}
+.quiz-app .answers-area .answer label {
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  font-size: 16px;
+  margin-left: 5px;
+  user-select: none;
+}
+.submit-button {
+  background-color: #0075ff;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.submit-button:focus {
+  outline: none;
+}
+.submit-button:hover {
+  opacity: 0.8;
+}
+
+.bullets {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+}
+.bullets .spans {
+  flex: 1;
+  display: flex;
+}
+.bullets .spans span {
+  height: 20px;
+  width: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.bullets .spans span.on {
+  background-color: #0075ff;
+}
+.bullets .countdown {
+  flex: 1;
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+}
+.results span {
+  font-weight: bold;
+}
+.results span.bad {
+  color: #dc0a0a;
+}
+.results span.good {
+  color: #4fcdd6;
+}
+.results span.perfect {
+  color: #009688;
+}
+.results {
+  padding: 20px;
+  background-color: #fff;
+  font-size: 19px;
+  text-transform: capitalize;
+  border-top: 1px solid #dfdfdf;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "why we use <br> Element",
+    "answer_1": "to hide an element",
+    "answer_2": "to make a breakline",
+    "answer_3": "to change color of an element",
+    "answer_4": "to make a horizontal line",
+    "right_answer": "to make a breakline"
+  },
+  {
+    "title": "is <img> Element has Attribute href",
+    "answer_1": "Yes",
+    "answer_2": "No it's for anchor tag <a>",
+    "answer_3": "all elements has this attribute",
+    "answer_4": "both 1 and 3 are right",
+    "right_answer": "No it's for anchor tag <a>"
+  },
+  {
+    "title": "How can we make a text bold",
+    "answer_1": "putting it inside <b> tag",
+    "answer_2": "putting it inside <strong> tag",
+    "answer_3": "customizing it with font-weight property in css",
+    "answer_4": "all answers are right",
+    "right_answer": "all answers are right"
+  },
+  {
+    "title": "the next tag is used to bring an image to the template with the property src",
+    "answer_1": "<img>",
+    "answer_2": "<image>",
+    "answer_3": "<picture>",
+    "answer_4": "all answers are wrong",
+    "right_answer": "<img>"
+  },
+  {
+    "title": "is <img> Element has Attribute href",
+    "answer_1": "Yes",
+    "answer_2": "No it's for anchor tag <a>",
+    "answer_3": "all elements has this attribute",
+    "answer_4": "both 1 and 3 are right",
+    "right_answer": "No it's for anchor tag <a>"
+  },
+  {
+    "title": "how can we include an external page inside our html page",
+    "answer_1": "by using include in html",
+    "answer_2": "by using load in html",
+    "answer_3": "by using Iframe tag",
+    "answer_4": "all answers are wrong",
+    "right_answer": "by using Iframe tag"
+  },
+  {
+    "title": "how do we specify document 5 of html5 page",
+    "answer_1": "<DOCTYPE HTML5>",
+    "answer_2": "<DOCTYPE HTML>",
+    "answer_3": "!<DOCTYPE html>",
+    "answer_4": "!<DOCTYPE html5>",
+    "right_answer": "!<DOCTYPE html>"
+  },
+  {
+    "title": "one of the following tags doesn't belong to html5 semantics",
+    "answer_1": "<blockquote>",
+    "answer_2": "<aside>",
+    "answer_3": "<section>",
+    "answer_4": "<article>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "in html we can use this way to add attributes",
+    "answer_1": "class='class-name'",
+    "answer_2": "class = class-name",
+    "answer_3": "class = \"class-name\"",
+    "answer_4": "all answers are right",
+    "right_answer": "all answers are right"
+  }
+]
